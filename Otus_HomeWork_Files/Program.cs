@@ -15,6 +15,11 @@ namespace OtusHomeWork_File
 
                 string[] arrFileName = { "File1.txt", "File2.txt", "File3.txt", "File4.txt", "File5.txt", "File6.txt",
                 "File7.txt", "File8.txt", "File9.txt", "File10.txt"};
+                //for (int j = 0; j < arrFileName.Length; j++)
+                //{
+                //    TestFile.CreateFile(arrFileName[j]);
+                //}
+
                 for (int j = 0; j < arrFileName.Length; j++)
                 {
                     var dir = directory[i];
